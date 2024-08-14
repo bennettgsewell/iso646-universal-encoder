@@ -1,5 +1,6 @@
 mod code_maps;
-
+mod test_macro;
+/*
 /// Encodes a UTF-8 `&str` into a `Vec<u8>` ISO-646 encoded collection.
 ///
 /// Since UTF-8 supports all the characters in ISO-646 variants this
@@ -50,7 +51,7 @@ pub fn decode_string(input: &[u8], map: CodeMap) -> String {
 
     output
 }
-
+*/
 #[cfg(test)]
 mod tests {
     use super::*;
